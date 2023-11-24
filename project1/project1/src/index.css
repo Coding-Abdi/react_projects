@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+* {
+  box-sizing: border-box;
+  /* background-color: black; */
+}
+
+h1 {
+  color: black;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: darkblue;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+p {
+  color: darkblue;
+  padding: 0;
+  margin: 0;
+  width: 40%;
+  text-align: justify;
+}
+
