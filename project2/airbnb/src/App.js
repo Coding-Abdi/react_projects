@@ -2,29 +2,34 @@ import React from 'react';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Card from './Card';
-import cardData from './cardData';
+import data from './data';
 import './App.css';
 // let zaf = require('./assets/zaferes.png');
 // let star = require('./assets/star.png');
 
 
 function App() {
-  const data = cardData.map(item => {
-      return <Card 
+  const cards = data.map(item => {
+      return <Card
+                key={item.id} 
                 img={item.img} 
                 starImg={item.starImg}
                 rating={item.rating}
                 reviewCount={item.reviewCount}
                 location={item.location}
                 title={item.title}
-                price={item.price}  
+                description={item.description}
+                price={item.price}
+                openSpots={item.openSpots}  
                 />
     })
     return (
     <div className="App">
       <Navbar />
       <Hero />
-      {data}
+      <section className="cards-list">
+        {cards}
+      </section>
     </div>
   );
 }
