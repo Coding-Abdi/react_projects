@@ -36,7 +36,49 @@ nav {
   margin-top: 3px;
 }
 
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  /* overflow-x: auto; */
+}
 
+.card {
+  /* padding: 20px;
+  height: 80vh; */
+  font-size: 13px;
+  /* flex: 1 0 auto; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* position: relative; */
+ }
+
+ .column {
+  flex: 1, 2;
+  border: 2px solid yellow;
+}
+
+.column:first-child {
+  margin-right: 20px;
+}
+
+.column:nth-child(2) {
+  margin-top: 220px;
+}
+
+ .card-img {
+  height:70vh;
+  width:55vh;
+  border-radius: 9px;
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-bottom: 9px;
+}
+
+/* .card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
 
 /* body {
   margin: 0;
