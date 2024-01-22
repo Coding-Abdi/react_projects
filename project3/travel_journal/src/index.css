@@ -32,7 +32,7 @@ nav {
   margin-top: 1px;
 }
 
-.main-title {
+.nav-title {
   margin-top: 3px;
 }
 
@@ -51,11 +51,14 @@ nav {
   display: flex;
   /* flex-wrap: wrap; */
   /* position: relative; */
+  margin-top: 20px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
  }
 
  .column {
   flex: 1, 2;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
+  
 }
 
 .column:first-child {
@@ -63,7 +66,7 @@ nav {
 }
 
 .column:nth-child(2) {
-  margin-top: 220px;
+  margin-top: 80px;
 }
 
  .card-img {
@@ -73,6 +76,30 @@ nav {
   margin-top: 60px;
   margin-left: 60px;
   margin-bottom: 9px;
+}
+
+.main-text {
+  text-align: justify;
+}
+
+.loc-maps, .location, .g-maps {
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.description {
+  padding-right: 300px;
 }
 
 /* .card-title {
