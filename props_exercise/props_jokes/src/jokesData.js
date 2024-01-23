@@ -17,8 +17,10 @@ const jokesData = [
     },
     {
         setup: 'Helvetica and Times New Roman walk into a bar.',
-        punchline: '"Get out of here!" shouts the bartender. "We do not serve your type."'
-    }
+        punchline: '"Get out of here!" shouts the bartender. "We do not serve your type."',
+        
+    },
+    
 ]
 
 export default jokesData;
