@@ -11,7 +11,7 @@ function Navbar () {
     return (
         <nav>
             <h3 className="logo">{logo}</h3>
-            <h2 className="nav-title">my travel journal</h2>
+            <h2 className="nav-title">my travel journal.</h2>
         </nav>
     )
 }
