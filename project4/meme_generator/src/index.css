@@ -9,22 +9,54 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif
+  font-family: 'Poppins', 'Poiret One', sans-serif;
 }
 
 nav {
+  /* background-color: #FCFAF9; */
+  background-color: #48E5C2;
   height: 80px;
   display: flex;
-  padding: 16px 36px;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
-  height: 80px;
   padding-right: 5px;
+  padding-left: 10px;
+  margin-top: 9px;
+  margin-bottom: 0px;
 }
 
+.heading1 {
+  font-size: 40px;
+  margin-top: 8px;
+}
 
+main {
+  padding: 56px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px /1fr 1fr;
+  gap: 17px;
+}
+
+.form-input {
+  font-family: 'Poppins', 'Poiret One', sans-serif;
+  border-radius: 5px;
+  border: 1px solid #5E5E5E;
+  text-indent: 5px;
+}
+
+.form-button {
+  grid-column: 1 / -1;
+  font-family: 'Poppins', 'Poiret One', sans-serif;
+  border-radius: 5px;
+  background-color: #48E5C2;
+  border: none;
+  cursor: pointer;
+}
 
 
 
