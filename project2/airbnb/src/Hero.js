@@ -1,5 +1,5 @@
 import React from 'react';
-let heroImg = require('./images/hero.png');
+const heroImg = require('./images/hero.png');
 
 
 function Hero () {

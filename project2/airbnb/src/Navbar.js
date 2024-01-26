@@ -1,5 +1,5 @@
 import React from 'react';
-let logo = require('./images/airbnb_logo.png');
+const logo = require('./images/airbnb_logo.png');
 
 
 function Navbar () {
